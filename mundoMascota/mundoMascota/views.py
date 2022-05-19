@@ -21,3 +21,11 @@ def Contacto(request):
 def base(request):
 
     return render(request, "base.html")   
+
+def Login(request):
+
+    return render(request, "Login.html")
+
+def Principal(request):
+
+    return render(request, "Principal.html")

@@ -21,11 +21,13 @@ from mundoMascota import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home, name="home"),
+    path('',views.home, name="Principal"),
     path('home',views.home, name="home"),
     path('Tienda' ,views.Tienda, name="Tienda"),
     path('Blog',views.Blog, name="Blog"),
     path('Contacto',views.Contacto, name="Contacto"),
+    path('Login',views.Login, name="Login"),
+    path('Principal',views.Principal, name="Principal"),
     
     
 ]
